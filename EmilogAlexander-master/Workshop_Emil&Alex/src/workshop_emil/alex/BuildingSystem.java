@@ -14,6 +14,7 @@ public class BuildingSystem {
     public BuildingSystem(){
         buildings = new ArrayList<>();
 
+        Building UCL = new Building("noob stedet");
         Building sdu = new Building("Syddansk universitet");
         Sensor sensor = new Sensor("SDU Sensor 1", 20);
         sdu.addSensor(sensor);
@@ -24,6 +25,7 @@ public class BuildingSystem {
         for(Building building : buildings){
             building.getSensors().get(0).toString();
         }
+        System.out.println(toString());
     }
 
     /**
@@ -43,5 +45,9 @@ public class BuildingSystem {
     public void removeBuilding(Building building){
         buildings.remove(building);
     }
+    
+    @Override 
+    public String toString(){
+     return buildings.toString();
+    }
 }  
-}
