@@ -25,7 +25,7 @@ public class BuildingSystem {
         for(Building building : buildings){
             building.getSensors().get(0).toString();
         }
-        System.out.println(toString());
+        System.out.print(sdu.toString() + "\n");
     }
 
     /**
@@ -46,8 +46,5 @@ public class BuildingSystem {
         buildings.remove(building);
     }
     
-    @Override 
-    public String toString(){
-     return buildings.toString();
-    }
+  
 }  

@@ -43,5 +43,10 @@ public class Building {
     public List<Sensor> getSensors() {
         return sensors;
     }
+    
+    @Override 
+    public String toString(){
+     return  name + " has " + actuators + " actuators and " +  sensors + " sensors";
+    }
 }
 
