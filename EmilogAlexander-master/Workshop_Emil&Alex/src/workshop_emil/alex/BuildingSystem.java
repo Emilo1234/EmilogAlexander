@@ -16,8 +16,8 @@ public class BuildingSystem {
 
         Building UCL = new Building("noob stedet");
         Building sdu = new Building("Syddansk universitet");
-        Sensor sensor = new Sensor("SDU Sensor 1", 20);
-        sdu.addSensor(sensor);
+        Celsius celsius = new Celsius("SDU Sensor 1", 20);
+        sdu.addSensor(celsius);
         Actuator actuator = new Actuator("SDU Actuator 1", 22);
         sdu.addActuator(actuator);
         addBuilding(sdu);

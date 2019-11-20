@@ -10,10 +10,13 @@ package workshop_emil.alex;
  * @author emilo
  */
 public class Celsius extends Sensor {
+    private String name; 
     private String type;
+    private int value; 
     
-    public Celsius (){
-        super(super.getName(), super.getValue() );
+    public Celsius (Name name, Value value){
+        this.value = super.getValue();
+        this.name = super.getName();
         type = "Celsius";
     }
     @Override

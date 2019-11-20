@@ -13,6 +13,7 @@ public class ppm extends Sensor{
     private String type;
     
     public ppm (){
+        super();
         type = "ppm";
     }
     @Override
