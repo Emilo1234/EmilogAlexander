@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package workshop_emil.alex;
 
 import java.util.ArrayList;
@@ -19,7 +15,7 @@ public class BuildingSystem {
         buildings = new ArrayList<>();
 
         Building sdu = new Building("Syddansk universitet");
-        Sensor sensor = new Sensor("SDU Sensor 1", SensorType.TEMPERATURE, 20);
+        Sensor sensor = new Sensor("SDU Sensor 1", 20);
         sdu.addSensor(sensor);
         Actuator actuator = new Actuator("SDU Actuator 1", 22);
         sdu.addActuator(actuator);

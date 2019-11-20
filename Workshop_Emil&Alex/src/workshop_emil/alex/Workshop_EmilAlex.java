@@ -8,7 +8,7 @@ package workshop_emil.alex;
 public class Workshop_EmilAlex {
 
     public static void main(String[] args) {
-        new buildingSystem();
+        new BuildingSystem();
         
     }
     
