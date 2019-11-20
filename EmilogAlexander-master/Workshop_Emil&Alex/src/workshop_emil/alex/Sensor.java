@@ -20,10 +20,7 @@ public class Sensor {
      * @param type  the type
      * @param value the value
      */
-    public Sensor(String name, int value){
-        this.name = name;
-        this.value = value;
-    }
+   
 
     /**
      * Gets value.
@@ -32,6 +29,9 @@ public class Sensor {
      */
     public int getValue() {
         return value;
+    }
+     public String getName() {
+        return name;
     }
 
     /**
